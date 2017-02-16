@@ -1,0 +1,37 @@
+﻿Annie@Annie MINGW64 ~/veilleTechnologique/exercice04
+$ git init
+Initialized empty Git repository in C:/Users/Annie/veilleTechnologique/exercice04/.git/
+
+Annie@Annie MINGW64 ~/veilleTechnologique/exercice04 (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+        styles/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Annie@Annie MINGW64 ~/veilleTechnologique/exercice04 (master)
+$ git add .
+warning: LF will be replaced by CRLF in styles/style.css.
+The file will have its original line endings in your working directory.
+
+Annie@Annie MINGW64 ~/veilleTechnologique/exercice04 (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+        new file:   styles/animation-svg.css
+        new file:   styles/animation-svg.less
+        new file:   styles/style.css
+        new file:   styles/style.less

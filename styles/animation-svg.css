@@ -1,0 +1,42 @@
+.svg1 {
+  animation: animSvg1 3s ease infinite;
+}
+@keyframes animSvg1 {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(150px);
+    opacity: 1;
+  }
+}
+.svg3 path {
+  animation: lignesAnimees 5s linear infinite;
+}
+@keyframes lignesAnimees {
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+.svg4 {
+  transition: height 3s, transform 2s;
+}
+.svg4:hover {
+  height: 250px;
+  transform: rotate(180deg);
+}
+.svg5 path {
+  animation: ligneTracee 6s linear forwards infinite;
+}
+@keyframes ligneTracee {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.svg6 {
+  transition: r 2s;
+}
+.svg6:hover {
+  r: 100px;
+}

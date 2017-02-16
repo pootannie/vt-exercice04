@@ -1,0 +1,10 @@
+main {
+  display: inline-block;
+}
+.svg3 path {
+  stroke-dasharray: 20;
+}
+.svg5 path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
